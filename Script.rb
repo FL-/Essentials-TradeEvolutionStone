@@ -32,7 +32,7 @@ ItemHandlers::UseOnPokemon.add(:LINKSTONE,proc{|item,pokemon,scene|
         evo=PokemonEvolutionScene.new
         evo.pbStartScreen(pokemon,newspecies)
         evo.pbEvolution(false)
-       evo.pbEndScreen
+        evo.pbEndScreen
         scene.pbRefresh
      }
      next true

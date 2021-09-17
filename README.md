@@ -1,7 +1,7 @@
 # Trade Evolution Stone
 This script is for Pokémon Essentials. An item who trigger trade evolutions. Trade evolutions with hold item (like Onix to Steelix) only works while holding the correct item (Metal Coat).
 
-![](Files/Item901.png)
+![](Files/item901.png)
 
 ## Screens
 ![](Screens/gif.gif)
