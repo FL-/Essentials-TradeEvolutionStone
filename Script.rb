@@ -18,7 +18,7 @@
 #
 #===============================================================================
 
-if defined?(PluginManager)
+if !PluginManager.installed?("Trade Evolution Stone")
   PluginManager.register({                                                 
     :name    => "Trade Evolution Stone",                                        
     :version => "1.1",                                                     
