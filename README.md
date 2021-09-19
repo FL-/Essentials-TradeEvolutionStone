@@ -7,7 +7,7 @@ This script is for Pokémon Essentials. An item who trigger trade evolutions. Tr
 ![](Screens/gif.gif)
 
 ## Compatibility
-Doesn't work on Essentials version v17 or above.
+Works only on Essentials v17, v17.1, v17.2, v18 and v18.1. To see other Essentials versions, look at [all branches](../../branches/all).
 
 ## Installation
 Follow the [Script](/Script.rb) instructions.
