@@ -11,17 +11,30 @@
 # To this script works, put it above main OR convert into a plugin. Add into
 # PBS\items.txt:
 #
-# 901,LINKSTONE,Link Stone,Link Stones,1,3000,"A peculiar stone that makes certain species of Pokémon evolve. It has a link cable pattern.",1,0,7,
+# In Essentials version 20 or above:
 #
-# You can change the fields except the last number. If you change the internal
-# name, change also in the script.
+#  [BOOSTERPACK]
+#  Name = Link Stone
+#  NamePlural = Link Stones
+#  Pocket = 1
+#  Price = 3000
+#  FieldUse = OnPokemon
+#  Flags = EvolutionStone,Fling_30
+#  Description = A peculiar stone that makes certain species of Pokémon evolve. It has a link cable pattern.
+#
+# In In v19-v19.1:
+#
+#  901,LINKSTONE,Link Stone,Link Stones,1,3000,"A peculiar stone that makes certain species of Pokémon evolve. It has a link cable pattern.",1,0,7,
+#
+# You can change the fields. If you change the internal name, change also in the
+# script.
 #
 #===============================================================================
 
 if !PluginManager.installed?("Trade Evolution Stone")
   PluginManager.register({                                                 
     :name    => "Trade Evolution Stone",                                        
-    :version => "1.1",                                                     
+    :version => "1.1.1",                                                     
     :link    => "https://www.pokecommunity.com/showthread.php?t=458757",             
     :credits => "FL"
   })
